@@ -7,3 +7,5 @@ jangan lupa npm install dulu
 ```
 baru node index
 ```
+
+Kalau mau nyebarin minimal credit ke twitter @evetixx
