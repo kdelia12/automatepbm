@@ -8,7 +8,7 @@ const nim = process.env.NIM;
 
 const url = 'https://siap.undip.ac.id/evaluasi_perkuliahan/mhs/evaluasi/ajax/simpan-kuisioner';
 const headers = {
-  'Cookie': 'twk_uuid_5eccf3638ee2956d73a4a6c6=' + twk_uuid_5eccf3638ee2956d73a4a6c6 + '; sia_app_session=' + sia_app_session,
+  'Cookie': ' sia_app_session=' + sia_app_session,
 };
 
 async function getcominationmkanddosen() {
