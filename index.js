@@ -2,7 +2,6 @@ const axios = require('axios');
 require('dotenv').config();
 const cheerio = require('cheerio');
 
-const twk_uuid_5eccf3638ee2956d73a4a6c6 = process.env.TWK_UUID_5ECCF3638EE2956D73A4A6C6;
 const sia_app_session = process.env.SIA_APP_SESSION;
 const nim = process.env.NIM;
 
@@ -51,6 +50,7 @@ async function sendRequests() {
           console.error(`Error for combination ${element}:`, error);
         }
       }
+    console.log("Follow twitter @evetixx");
       
 }
 sendRequests();
